@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TitanicSurvivalDetector/static/css/main.d34a8c91.css",
+    "main.css": "/TitanicSurvivalDetector/static/css/main.cb5f2cd0.css",
     "main.js": "/TitanicSurvivalDetector/static/js/main.e0b03ad8.js",
     "static/js/453.4e8ad20a.chunk.js": "/TitanicSurvivalDetector/static/js/453.4e8ad20a.chunk.js",
     "index.html": "/TitanicSurvivalDetector/index.html",
-    "main.d34a8c91.css.map": "/TitanicSurvivalDetector/static/css/main.d34a8c91.css.map",
+    "main.cb5f2cd0.css.map": "/TitanicSurvivalDetector/static/css/main.cb5f2cd0.css.map",
     "main.e0b03ad8.js.map": "/TitanicSurvivalDetector/static/js/main.e0b03ad8.js.map",
     "453.4e8ad20a.chunk.js.map": "/TitanicSurvivalDetector/static/js/453.4e8ad20a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d34a8c91.css",
+    "static/css/main.cb5f2cd0.css",
     "static/js/main.e0b03ad8.js"
   ]
 }
