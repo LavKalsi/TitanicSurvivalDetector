@@ -1,5 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
 .App {
   text-align: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -25,7 +29,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fb6161;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +39,511 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1{
+  padding-top: 0px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 90px;
+  color: #7d0000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.name2{
+  padding-right: 20px;
+  flex: 1;
+  text-align-last: left;
+  align-items: left;
+}
+
+label{
+  padding-top: 10px;
+  width: 30%;
+  font-family: "League Spartan", sans-serif;
+  font-size: 30px;
+  color: #7d0000;
+  text-align: right;
+  width: 100px;
+  margin-bottom: 0px;
+}
+
+.l{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: 50;
+  vertical-align: center;
+  padding-inline: 450px;
+}
+
+
+h2{
+  padding-top: 0px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 30px;
+  color: #7d0000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.lab{
+  text-align: left;
+  flex: 1;
+  
+  text-indent: 72px;
+}
+
+@media (max-width: 768px) {
+
+  :focus {
+    outline: 0;
+    border-color: #2260ff;
+    box-shadow: 0 0 0 4px #b5c9fc;
+  }
+  
+  
+  .mydict div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    justify-content: center;
+  }
+  
+  .mydict input[type="radio"] {
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  
+  .mydict input[type="radio"]:checked + span {
+    box-shadow: 0 0 0 0.0625em #0043ed;
+    background-color: #dee7ff;
+    z-index: 1;
+    color: #0043ed;
+  }
+  
+  label span {
+    display: block;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 0.375em .75em;
+    position: relative;
+    margin-left: .0625em;
+    box-shadow: 0 0 0 0.0625em #b5bfd9;
+    letter-spacing: .05em;
+    color: #3e4963;
+    text-align: center;
+    width: 60px;
+    transition: background-color .5s ease;
+  }
+  
+  label:first-child span {
+    border-radius: .375em 0 0 .375em;
+  }
+  
+  label:last-child span {
+    border-radius: 0 .375em .375em 0;
+  }
+  
+  .l {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 40;
+    text-align: left;
+    padding-top: 10px;
+    vertical-align: center;
+    padding-inline: 40px;
+  }
+
+
+
+  .name2{
+    padding-right: 70px;
+    flex: 1;
+    padding-top: 10px;
+    text-align-last: left;
+    align-items: left;
+  }
+
+  label{
+    padding-top: 10px;
+    width: 60%;
+    text-align: left;
+    font-family: "League Spartan", sans-serif;
+    font-size: 30px;
+    color: #7d0000;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+  
+  input[type="number"] {
+    width: 40%;
+    padding: 10px;
+    height: 44px;
+    margin-bottom: 10px;
+    background-color: #ffffff77;
+    border: 1px solid #6bccf3;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+input[type="number"] {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff77;
+  border: 1px solid #f36b6b;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #6bccf300;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.jersey-25-regular {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.output {
+  margin-top: 20px;
+  font-size: 40px;
+  padding-top: 10px;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  animation: popup 0.5s ease-out;
+  color: #7d0000;
+}
+
+
+@keyframes popup {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Radio button styles */
+.radio-group {
+  margin-top: 10px;
+}
+
+.radio-group label {
+  margin-right: 10px;
+}
+
+
+
+button {
+  margin-inline: center;
+  font-family: inherit;
+  font-size: 20px;
+  background: #7d0000;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+button span {
+  display: block;
+  margin-left: 0.4em;
+  transition: all 0.3s ease-in-out;
+}
+
+button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+  transform: translateX(3em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+  transform: translateX(8em);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+.Radio input[type="radio"] {
+  position: absolute;
+  left: -100px;
+  padding-bottom: 20px;
+}
+.Radio input[type="radio"] + label {
+  position: relative;
+  display: block;
+  line-height: 3rem;
+  cursor: pointer;
+  white-space: nowrap;
+  color: #004f7d;
+}
+
+.Radio input[type="radio"] + label::before,
+.Radio input[type="radio"] + label::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  transition: 0.2s;
+}
+
+.Radio input[type="radio"] + label {
+  padding-left: 3rem;
+}
+
+.Radio input[type="radio"] + label::before {
+  width: 2rem;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background: #004f7d;
+}
+
+.Radio input[type="radio"] + label::after {
+  left: 0.2rem;
+  width: 1.4rem;
+  transform: translateY(-50%) scale(0);
+}
+
+.Radio input[type="radio"]:not(:checked) + label::after {
+  animation: radio 0.5s linear;
+}
+
+.Radio input[type="radio"]:checked + label::after {
+  transform: translateY(-50%) scale(1);
+}
+
+.Radio input[type="radio"] + label::after {
+  aspect-ratio: 1 / 1;
+  border: 0.1rem solid #fff;
+  border-radius: 50%;
+  background: radial-gradient(circle at 70% 30%, #fff, rgba(0, 0, 0, 0) 25%),
+    radial-gradient(
+      circle at 60% 55%,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(255, 0, 255, 0.8) 100%
+    ),
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 255, 255, 0.2) 60%,
+      rgba(0, 0, 0, 0) 68%
+    ),
+    radial-gradient(
+      circle at 50% 55%,
+      rgba(0, 0, 0, 0) 35%,
+      rgba(255, 255, 0, 0.2) 45%,
+      rgba(0, 0, 0, 0) 55%
+    );
+}
+
+@keyframes radio {
+  0% {
+    transform: translateY(-50%) scale(1);
+  }
+  100% {
+    transform: translateY(-50%) scale(1.7);
+  }
+}
+
+/* App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(circle, rgb(246, 91, 91), transparent 20%, rgb(240, 166, 166));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(249, 43, 43, 0.652);
+}
+
+
+.input {
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #e8e8e8;
+  box-shadow: 20px 20px 60px #c5c5c5,
+     -20px -20px 60px #ffffff;
+  transition: 0.3s;
+ }
+ 
+ .input:focus {
+  outline-color: #e8e8e8;
+  background: #e8e8e8;
+  box-shadow: inset 20px 20px 60px #c5c5c5,
+     inset -20px -20px 60px #ffffff;
+  transition: 0.3s;
+ }
+
+ .card a{
+  color: #7d0000;
+ }
+
+.card a:hover {
+  color: rgb(255, 140, 0);
+}
+
+ .card .share {
+  margin-top: 0em;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.centerButton{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  align-items: center;
+}
+:focus {
+  outline: 0;
+  border-color: #7d0000;
+  box-shadow: 0 0 0 4px #7d0000;
+}
+
+.mydict{
+  width: 40%;
+  flex: 2;
+  padding-left: 0px;
+  margin-top: -20px;
+}
+.label{
+  padding-left: 60px;
+}
+
+.mydict{
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 0px;
+  margin-left: 30px;
+}
+.mydict div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.mydict input[type="radio"] {
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.mydict input[type="radio"]:checked + span {
+  box-shadow: 0 0 0 0.0625em #7d0000;
+  background-color: #ffdede;
+  z-index: 1;
+  color: #7d0000;
+}
+
+.mydict label{
+    font-size: 20px;
+}
+
+label span {
+  display: block;
+  cursor: pointer;
+  background-color: #ffffff77;
+  padding: 0.375em .75em;
+  position: relative;
+  margin-left: .0625em;
+  box-shadow: 0 0 0 0.0625em #d9b5b5;
+  letter-spacing: .05em;
+  color: #7d0000;
+  text-align: center;
+  transition: background-color .5s ease;
+}
+
+label:first-child span {
+  border-radius: .375em 0 0 .375em;
+}
+
+label:last-child span {
+  border-radius: 0 .375em .375em 0;
+}
+
+.adjust{
+  padding-inline: 0px;
+  display: flex;
+  width: 40;
+  justify-content: center;
+  align-items: center;
+}
+
+.name{
+  padding-right: 20px;
+  flex: 1;
+  text-align-last: left;
+  align-items: left;
 }
