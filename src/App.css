@@ -492,7 +492,7 @@ body, html {
   margin-left: 30px;
 }
 .mydict div {
-  padding-left: 20px;
+  padding-left: 20px; 
   display: flex;
   flex-wrap: inherit;
   margin-top: 0.5rem;
