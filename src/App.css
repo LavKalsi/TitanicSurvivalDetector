@@ -96,6 +96,15 @@ h2{
 
 @media (max-width: 768px) {
 
+  h1{
+    padding-top: 0px;
+    font-family: "League Spartan", sans-serif;
+    font-size: 70px;
+    color: #7d0000;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
   :focus {
     outline: 0;
     border-color: #2260ff;
@@ -183,7 +192,7 @@ h2{
   }
   
   input[type="number"] {
-    width: 40%;
+    width: inherit !important;
     padding: 10px;
     height: 44px;
     margin-bottom: 10px;
@@ -483,8 +492,9 @@ body, html {
   margin-left: 30px;
 }
 .mydict div {
+  padding-left: 20px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: inherit;
   margin-top: 0.5rem;
   align-items: center;
   justify-content: center;
@@ -508,6 +518,7 @@ body, html {
 }
 
 .mydict label{
+  
     font-size: 20px;
 }
 

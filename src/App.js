@@ -84,7 +84,7 @@ function App() {
        
         <div className='l'>
           <div className='name'>
-          <label>Family Members:</label>
+          <label> Family Members: </label>
           
           </div>
           <input
