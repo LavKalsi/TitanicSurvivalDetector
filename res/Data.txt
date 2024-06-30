@@ -1,0 +1,17 @@
+Example data of Passenger's who Survived and Not Survived
+
+Survived Data
+
+Passenger Class = 2
+Passenger Age = 55
+Family Members = 0
+Fare = 16
+Sex = Female
+
+Not Survived Data
+
+Passenger Class = 3
+Passenger Age = 20
+Family Members = 0
+Fare = 31.275
+Sex = Male
