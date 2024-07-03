@@ -92,7 +92,7 @@ The backend is a Python Flask application that serves a machine learning model t
 ### Files in `res` Folder
 
 - `Server.py`: The Flask application that handles HTTP requests from the frontend.
-- `model.pkl`: The trained machine learning model.
+- `titanic_survival_prediction_model.pkl`: The trained machine learning model.
 - `requirements.txt`: The dependencies required for the Python backend.
 
 ## Contributing
