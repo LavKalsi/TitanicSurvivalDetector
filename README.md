@@ -66,7 +66,7 @@ Titanic Survival Detector is a web application built with React for the frontend
 
 3. Run the backend server:
     ```sh
-    python res/app.py
+    python res/Server.py
     ```
 
 ## Usage
